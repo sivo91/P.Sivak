@@ -35,7 +35,11 @@ form {
   padding: 10px;
   border-radius: 4%;
   font-size: 20px;
-  background-image: linear-gradient(rgba(255, 1, 158, 0.171), rgba(0, 247, 185, 0.199));
+  background-image: linear-gradient(rgba(212, 182, 10, 0.171), rgba(0, 247, 185, 0.199));
+}
+
+form:hover {
+  box-shadow: 1px 1px 20px gray;
 }
 
 footer {
