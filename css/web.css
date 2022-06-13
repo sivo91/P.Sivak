@@ -13,7 +13,6 @@ main {
 
 .project-content {
   position: relative;
-  top: 130px;
   width: 100%;
   min-height: 100vh;
 }
@@ -21,9 +20,7 @@ main {
 
 
 .project-content h2 {
- 
   text-align: center;
- 
 }
 
 .project-content > ul {
@@ -74,11 +71,8 @@ main {
 
 @media only screen and (max-width: 768px) {
 
-  
-
   .project-content  {
     position: relative;
-    top: -120px;
     width: 100%!important;
   }
 

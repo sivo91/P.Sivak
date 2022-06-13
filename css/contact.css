@@ -13,27 +13,9 @@ main {
   position: relative;
   width: 100%;
   height: 100%;
+  padding-top: 40px;
   text-align: center; 
-}
 
-.bg-img {
-  position: absolute;
-  left: 10%;
-  top: 18%;
-  opacity: .03;
-  
-}
-
-.contact-content {
-  position: relative;
-  top: 130px;
-}
-
-.box {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 
@@ -47,43 +29,14 @@ main {
 /*  FORM */
 form {
   position: relative;
-  width: 380px;
-  margin: 30px 0;
+  width: 50%;
+  text-align: start;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 4%;
   font-size: 20px;
-  
+  background-image: linear-gradient(rgba(255, 1, 158, 0.171), rgba(0, 247, 185, 0.199));
 }
-
-fieldset {
-  border-radius: 7px;
- border: 1px solid black;
-}
-
-legend {
-  font-size: 25px;
-  background-color: white;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-}
-
-#first-name, #last-name, #phone1, #email1
-{
-  padding: 0px 10px;
-  margin-top: 7px;
-  border-radius: 4px;
-}
-
-#phone1 {
-  position: relative;
-  left: 18px;
-}
-
-#email1 {
-   position: relative;
-  left: 22px;
-}
-
-
-
 
 footer {
   position: relative;
@@ -97,13 +50,13 @@ footer {
 /* FOR IPHONS */
 @media only screen and (max-width: 768px) {
 
-  .contact-content {
-     position: relative;
-     top: -130px;
-  }
+   main {
+    padding-top: 40px;
+   }
 
   .box {
     display: flex;
+    margin-top: -40px;
     flex-direction: column;
   }
 
@@ -113,6 +66,9 @@ footer {
   }
   
   form {
+    position: relative;
+    width: 80%;
+    
     margin-top: 50px;
   }
 

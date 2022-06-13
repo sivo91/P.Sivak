@@ -1,19 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <!-- Bootsrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-  <link rel="stylesheet" href="../css/newNav.css">
 
-
+  <link rel="stylesheet" href="../css/web.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,30 +25,29 @@
 
 <body>
 
-
   <Header>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container p-2">
         <h3>Peter Sivak</h3>
-
+  
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-
+  
+  
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!--  MS-AUTO -->
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
+  
             <li class="nav-item">
               <a class="nav-link fs-3" href="../html/intro.html">Home</a>
             </li>
-
+  
             <li class="nav-item">
               <a class="nav-link fs-3" href="../html/about.html">About</a>
             </li>
-
+  
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle fs-3" href="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -55,70 +57,40 @@
                 <li><a class="dropdown-item fs-4" href="../projects/wordpress.html">Website</a></li>
                 <li><a class="dropdown-item fs-4" href="../projects/ecommerce.html">Ecommerce</a></li>
                 <li><a class="dropdown-item fs-4" href="../projects/adobe.html">Design</a></li>
-
+  
               </ul>
             </li>
-
+  
             <li class="nav-item">
               <a class="nav-link fs-3" href="../html/contact.html">Contact</a>
             </li>
           </ul>
-
+  
         </div>
       </div>
     </nav>
   </Header>
 
-  <Main>
+  <main>
 
-    <div class="toggle-title-page" onclick="togglePage()">
-      <i class="bi bi-toggle-on"></i>
-      <!-- <i class="bi bi-toggle-off toogle-icon"></i> -->
-    </div>
 
-    <div class="panel">
-      <h1 class="title-h1">Meet Peter</h1>
-      <h3 class="title-h3">Web Designer and Developer</h3>
 
-      <!-- hero image -->
-      <div class="imgtitle">
-        <img src="../imgs/ja1.png" class="heroImage" alt="me">
+    <div class="project-content">
+      <h2>Ecommerce</h2>
+      <div class="display-projects">
       </div>
-
-
-      <div class="texts">
-        <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ducimus facilis ut placeat a libero
-          necessitatibus deserunt asperiores iusto. Eveniet officiis quis nisi accusantium, perspiciatis reprehenderit
-          cupiditate nobis earum voluptates. </q>
-      </div>
-
-
-
-
-      <!--  Views -->
-      <p class="views"><i class="far fa-eye eye"></i> <span id="count-views"> 0</span> </p>
-
-
     </div>
 
 
-
-  </Main>
-
-
-
-
-
+  </main>
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
 
-
   <script src="../js/app.js"></script>
-  <script src="../js/intro.js"></script>
-  <script src="../js/views.js"></script>
-  <script src="../js/titlepage.js"></script>
+  <script src="../js/ecommerce.js"></script>
 </body>
+
 </html>
