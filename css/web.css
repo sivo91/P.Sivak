@@ -1,4 +1,17 @@
 
+
+
+:root {
+  --primary: #555BFF;
+  --green: #137e05;
+  --blue: #0522ff;
+  --purple: #e100ff;
+  --background: white;
+  --red: red;
+  --orange: orange;
+  --yellow: yellow;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -129,12 +142,15 @@ main {
   border-radius: 6px;
   overflow: hidden;
   margin: 15px 11px;
+  transition: all 1s;
+    
 }
 
 .project-card:hover {
-  box-shadow: 0.2px 0.2px 10px gray;
-  transform: translateY(-3px);
-  border: 1px solid white;
+  transform: translate(-20px, 20px);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--purple),
+    20px -20px 0 -3px var(--background), 20px -20px var(--blue),
+    30px -30px 0 -3px var(--background), 30px -30px var(--green)
 }
 
 .project-card-img {
