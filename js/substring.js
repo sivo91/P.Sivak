@@ -22,7 +22,7 @@ function paragr1() {
 
 let p2 = document.querySelector('.p2')
 let text2 = `
-   My goal is to become a leader and recognized expert in a I.T. field.I admire computerized information technology because I believe it’s going to play even greater role in our life than it does now , beyond one wildest imagination.
+   My goal is to become a leader and recognized expert in a I.T. field. I admire computerized information technology because I believe it’s going to play even greater role in our life than it does now , beyond one wildest imagination.
 `
 
 p2.innerHTML = text2.substring(0,49) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
