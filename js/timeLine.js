@@ -1,7 +1,0 @@
-
-
- $(function(){
-      $().timelinr({
-        arrowKeys: 'true'
-      })
-    });
