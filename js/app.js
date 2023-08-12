@@ -27,7 +27,7 @@ $(window).load(function() {
 });
 
 setTimeout(()=>{
- window.location.href = 'https://charisma.vercel.app/';
+ window.location.href = 'https://www.charismawebdevelopment.com/';
 
 },13000)   
  
